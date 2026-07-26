@@ -1,1 +1,0 @@
-import{w as a,e,r as s}from"./jsx-runtime-CfBnVn94.js";import{u as r}from"./portfolio-provider-D2PknPjY.js";const u=a(function(){const{language:o}=r(),t=e();return s.useEffect(()=>{const n=`cv-${o}.pdf`;window.open(n,"_blank"),t(-1)},[o,t]),null});export{u as default};
