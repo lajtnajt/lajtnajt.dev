@@ -1,5 +1,5 @@
 export async function sendEmail(formData: FormData) {
-  const accessKey = process.env.VITE_WEB3FORMS_ACCESS_KEY
+  const accessKey = "29c37438-8c62-44bc-a0d5-c92faa849f2f"
 
   if (!accessKey) {
     throw new Error("The webform access key is missing")
