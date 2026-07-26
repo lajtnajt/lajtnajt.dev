@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths"
 import path from "path"
 
 export default defineConfig({
-  base: "/",
+  base: "/lajtnajt.dev/",
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
   resolve: {
     alias: {
