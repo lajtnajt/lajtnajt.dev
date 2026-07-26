@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Unbound Decks",
+    "url": "https://unbounddecks.app/",
+    "displayUrl": "unbounddecks.app",
+    "techIds": [9, 12, 10, 7],
+    "type": ["personal", "website", "application"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "BobTheArrow",
+    "url": "https://github.com/lajtnajt/BobTheArrow",
+    "displayUrl": "",
+    "techIds": [1],
+    "type": ["personal"],
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Compression Benchmark",
+    "url": "https://github.com/lajtnajt/CompressionBenchmark",
+    "displayUrl": "",
+    "techIds": [1],
+    "type": ["personal"],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Vecsési Káposzta Webshop",
+    "url": "https://vecsesikaposzta.hu/",
+    "displayUrl": "vecsesikaposzta.hu",
+    "techIds": [9, 12, 10],
+    "type": ["commercial", "website"],
+    "featured": false
+  }
+]

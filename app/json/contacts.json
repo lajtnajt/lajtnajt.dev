@@ -1,0 +1,25 @@
+[
+  {
+    "id": "github",
+    "href": "https://github.com/lajtnajt",
+    "label": "GitHub",
+    "value": "@lajtnajt",
+    "iconType": "image",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+  },
+  {
+    "id": "linkedin",
+    "href": "https://linkedin.com/in/adam-odin",
+    "label": "LinkedIn",
+    "value": "Ádám Odin",
+    "iconType": "image",
+    "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+  },
+  {
+    "id": "email",
+    "href": "mailto:hello@lajtnajt.dev",
+    "label": "Email",
+    "value": "odin.adamsfamily@gmail.com",
+    "iconType": "lucide-mail"
+  }
+]

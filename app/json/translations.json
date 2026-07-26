@@ -1,0 +1,116 @@
+{
+  "hu": {
+    "about": {
+      "title": "Rólam",
+      "description": "Helló, Ádám Odin vagyok, adatelemző, full-stack szoftverfejlesztő.",
+      "tech_stack": "Tech Stack",
+      "featured_projects": "Kiemelt Projektek"
+    },
+    "projects": {
+      "title": "Projektek",
+      "description": "Itt találhatóak a publikusan elérhető projektjeim.",
+      "1_desc": "Egy pakliépítő weboldal és kísérőalkalmazás az Unmatched társasjátékhoz, amellyel a felhasználók saját paklikat hozhatnak létre és játszhatnak velük.",
+      "2_desc": "Egy teljesen moduláris, többcélú Discord bot.",
+      "3_desc": "Egy átfogó teljesítményteszt-projekt, amely a Zstandard, a Gzip és egy egyedi hibrid tömörítési algoritmus teljesítményét hasonlítja össze.",
+      "4_desc": "Egy webshop, amely egy magyar káposztatermelő számára készült.",
+      "search_placeholder": "Projektek keresése...",
+      "filters": "Szűrők",
+      "filter_type": "Típus",
+      "filter_tech": "Technológia",
+      "apply": "Alkalmaz",
+      "clear_all": "Összes törlése",
+      "no_results": "Nem található a feltételeknek megfelelő projekt.",
+      "type_personal": "Személyes",
+      "type_commercial": "Kereskedelmi",
+      "type_website": "Weboldal",
+      "type_application": "Alkalmazás"
+    },
+    "contact": {
+      "title": "Kapcsolat",
+      "description": "Kérdésed van? Vedd fel velem a kapcsolatot.",
+      "name": "Név",
+      "email": "E-mail cím",
+      "subject": "Tárgy",
+      "subject_business": "Üzleti megkeresés",
+      "subject_question": "Kérdés",
+      "message": "Üzenet",
+      "message_placeholder": "Példa üzenet",
+      "send": "Üzenet küldése",
+      "sending": "Küldés...",
+      "success_message": "Köszönöm az üzenetet! Hamarosan válaszolok.",
+      "new_message": "Új üzenet",
+      "direct_reach": "Közvetlen elérhetőségek",
+      "error_name": "Kérlek, add meg a teljes neved.",
+      "error_email": "Kérlek, adj meg egy érvényes email címet.",
+      "error_subject": "Kötelező témát választani.",
+      "error_message": "Az üzenetnek legalább 200 karakter hosszúnak kell lennie."
+    },
+    "cv": {
+      "title": "Önéletrajz"
+    },
+    "error": {
+      "404_title": "404 - Nem található oldal",
+      "404_description": "A keresett oldal nem található, vagy már eltávolították.",
+      "generic_title": "{status} - Váratlan hiba",
+      "generic_description": "Sajnáljuk, de valami hiba történt a kérés feldolgozása közben.",
+      "back_home": "Vissza a főoldalra"
+    }
+  },
+  "en": {
+    "about": {
+      "title": "About",
+      "description": "Hello, I'm Odin Ádám, a data analyst and full-stack software developer.",
+      "tech_stack": "Tech Stack",
+      "featured_projects": "Featured Projects"
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Here are my publicly available projects.",
+      "1_desc": "A deck builder website and companion app for the Unmatched board game, allowing users to create and play with their decks.",
+      "2_desc": "A fully modular multi purpose Discord bot.",
+      "3_desc": "A comprehensive benchmarking project comparing the performance of Zstandard, Gzip, and a custom hybrid compression algorithm.",
+      "4_desc": "A webshop developed for a Hungarian cabbage producer.",
+      "search_placeholder": "Search projects...",
+      "filters": "Filters",
+      "filter_type": "Type",
+      "filter_tech": "Technology",
+      "apply": "Apply",
+      "clear_all": "Clear all",
+      "no_results": "No projects found matching your criteria.",
+      "type_personal": "Personal",
+      "type_commercial": "Commercial",
+      "type_website": "Website",
+      "type_application": "Application"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Have a question? Get in touch with me.",
+      "name": "Name",
+      "email": "Email address",
+      "subject": "Subject",
+      "subject_business": "Business Inquiry",
+      "subject_question": "Question",
+      "message": "Message",
+      "message_placeholder": "Example message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success_message": "Thank you for your message! I will reply soon.",
+      "new_message": "New message",
+      "direct_reach": "Direct reach",
+      "error_name": "Please enter your full name (at least two words).",
+      "error_email": "Please enter a valid email address.",
+      "error_subject": "Please select a subject.",
+      "error_message": "The message must be at least 200 characters long."
+    },
+    "cv": {
+      "title": "CV"
+    },
+    "error": {
+      "404_title": "404 - Page Not Found",
+      "404_description": "The page you are looking for does not exist or has been removed.",
+      "generic_title": "{status} - Unexpected Error",
+      "generic_description": "Sorry, something went wrong while processing your request.",
+      "back_home": "Back to Home"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    "link": "https://www.python.org/"
+  },
+  {
+    "id": 2,
+    "name": "Pandas",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+    "link": "https://pandas.pydata.org/"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  {
+    "id": 4,
+    "name": "TypeScript",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+    "link": "https://www.typescriptlang.org/"
+  },
+  {
+    "id": 5,
+    "name": "PHP",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+    "link": "https://www.php.net/"
+  },
+  {
+    "id": 6,
+    "name": "Java",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+    "link": "https://www.java.com/"
+  },
+  {
+    "id": 7,
+    "name": "Kotlin",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",
+    "link": "https://kotlinlang.org/"
+  },
+  {
+    "id": 8,
+    "name": "C#",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg",
+    "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+  },
+  {
+    "id": 9,
+    "name": "Laravel",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
+    "link": "https://laravel.com/"
+  },
+  {
+    "id": 10,
+    "name": "React",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    "link": "https://react.dev/"
+  },
+  {
+    "id": 11,
+    "name": "Inertia.js",
+    "icon": "https://cdn.simpleicons.org/inertia/9553E9",
+    "link": "https://inertiajs.com/"
+  },
+  {
+    "id": 12,
+    "name": "Tailwind CSS",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+    "link": "https://tailwindcss.com/"
+  },
+  {
+    "id": 13,
+    "name": "PostgreSQL",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+    "link": "https://www.postgresql.org/"
+  },
+  {
+    "id": 14,
+    "name": "MongoDB",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
+    "link": "https://www.mongodb.com/"
+  }
+]
