@@ -106,6 +106,12 @@ export default function Contact() {
       return
     }
 
+    if (data.subject === "question") {
+      formData.set("subject", "Personal Website Question")
+    } else if (data.subject === "business") {
+      formData.set("subject", "Personal Website Business Inquiry")
+    }
+
     setIsSubmitting(true)
 
     try {
