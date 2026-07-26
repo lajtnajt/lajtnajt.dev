@@ -18,8 +18,12 @@ import translations from "~/json/translations.json"
 import "./app.css"
 
 export const links: LinksFunction = () => [
-  { rel: "icon", type: "image/ico", href: "/lajtnajt/favicon.ico" },
+  { rel: "icon", type: "image/ico", href: "/favicon.ico" },
 ]
+
+export function HydrateFallback() {
+  return null
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

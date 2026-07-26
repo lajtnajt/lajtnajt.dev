@@ -2,7 +2,7 @@ import type { Route } from "./+types/contact"
 import { usePortfolio } from "~/providers/portfolio-provider"
 import translations from "~/json/translations.json"
 import contacts from "../json/contacts.json"
-import { Mail, CheckCircle2 } from "lucide-react"
+import { Mail, CheckCircle2, AlertCircle } from "lucide-react"
 import { useState, useEffect } from "react"
 import { sendEmail } from "~/services/email-service"
 import { z } from "zod"
@@ -72,6 +72,7 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
   const [errors, setErrors] = useState<ValidationErrors>({})
+  const [submitError, setSubmitError] = useState<string | null>(null)
 
   const clearError = (field: string) => {
     if (errors[field]) {
@@ -81,11 +82,13 @@ export default function Contact() {
         return newErrors
       })
     }
+    setSubmitError(null)
   }
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setErrors({})
+    setSubmitError(null)
 
     const formData = new FormData(e.currentTarget)
     const data = Object.fromEntries(formData)
@@ -111,6 +114,7 @@ export default function Contact() {
       e.currentTarget.reset()
     } catch (error) {
       console.error(error)
+      setSubmitError(t.error_submit_spam)
     } finally {
       setIsSubmitting(false)
     }
@@ -288,6 +292,13 @@ export default function Contact() {
                     </p>
                   )}
                 </div>
+
+                {submitError && (
+                  <div className="flex items-center gap-2 rounded-md bg-red-50 p-3 text-sm text-red-600 dark:bg-red-950/50 dark:text-red-400">
+                    <AlertCircle className="h-4 w-4 shrink-0" />
+                    <p>{submitError}</p>
+                  </div>
+                )}
 
                 <Button
                   type="submit"

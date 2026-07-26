@@ -43,7 +43,8 @@
       "error_name": "Kérlek, add meg a teljes neved.",
       "error_email": "Kérlek, adj meg egy érvényes email címet.",
       "error_subject": "Kötelező témát választani.",
-      "error_message": "Az üzenetnek legalább 200 karakter hosszúnak kell lennie."
+      "error_message": "Az üzenetnek legalább 200 karakter hosszúnak kell lennie.",
+      "error_submit_spam": "Az üzeneted spamnek tűnik, vagy a biztonsági szűrő blokkolta. Kérlek, próbálj meg valós adatokat megadni."
     },
     "cv": {
       "title": "Önéletrajz"
@@ -100,7 +101,8 @@
       "error_name": "Please enter your full name (at least two words).",
       "error_email": "Please enter a valid email address.",
       "error_subject": "Please select a subject.",
-      "error_message": "The message must be at least 200 characters long."
+      "error_message": "The message must be at least 200 characters long.",
+      "error_submit_spam": "Your message looks like spam or was blocked by security filters. Please try using real data."
     },
     "cv": {
       "title": "CV"
