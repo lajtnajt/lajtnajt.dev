@@ -1,0 +1,2 @@
+# lajtnajt.dev
+Personal website
