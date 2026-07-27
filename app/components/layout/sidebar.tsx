@@ -47,8 +47,8 @@ export function Sidebar() {
           : "h-16 w-full border-b border-zinc-200 sm:border-b-0 dark:border-zinc-800"
       } `}
     >
-      <div className="flex h-16 shrink-0 items-center justify-between px-4 sm:mb-6 sm:h-auto sm:flex-col sm:items-start sm:px-5 sm:pt-6">
-        <div className="flex w-full items-center justify-between">
+      <div className="flex shrink-0 flex-col px-4 sm:mb-6 sm:items-start sm:px-5 sm:pt-6">
+        <div className="flex h-16 w-full items-center justify-between sm:h-auto">
           <div className="flex items-center gap-2">
             <span className="text-xl font-semibold">lajtnajt.dev</span>
           </div>
@@ -63,8 +63,8 @@ export function Sidebar() {
         </div>
 
         <div
-          className={`mt-4 flex w-full items-center justify-start gap-4 sm:flex ${
-            isOpen ? "flex" : "hidden sm:flex"
+          className={`flex w-full items-center justify-start gap-4 sm:mt-4 sm:flex ${
+            isOpen ? "mt-2 mb-2 flex" : "hidden"
           }`}
         >
           <button
