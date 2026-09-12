@@ -256,7 +256,7 @@ export default function Contact() {
                     <SelectTrigger className="border-zinc-200 bg-zinc-50 text-zinc-900 focus:ring-zinc-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-slate-50 dark:focus:ring-zinc-700">
                       <SelectValue placeholder={t.subject} />
                     </SelectTrigger>
-                    <SelectContent className="border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-slate-50">
+                    <SelectContent position="popper" className="border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-slate-50">
                       <SelectItem
                         value="business"
                         className="focus:bg-zinc-100 focus:text-zinc-900 dark:focus:bg-zinc-800 dark:focus:text-white"
