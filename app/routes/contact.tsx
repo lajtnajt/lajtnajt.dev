@@ -254,6 +254,12 @@ export default function Contact() {
                     onOpenChange={() => clearError("subject")}
                   >
                     <SelectTrigger className="border-zinc-200 bg-zinc-50 text-zinc-900 focus:ring-zinc-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-slate-50 dark:focus:ring-zinc-700">
+                              <SelectValue placeholder={t.subject} />
+                              <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
+                                <svg className="h-5 w-5 text-zinc-500 dark:text-zinc-400" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                                </svg>
+                              </div>
                       <SelectValue placeholder={t.subject} />
                     </SelectTrigger>
                     <SelectContent position="popper" className="w-[200px] border-zinc-200 bg-white text-zinc-900 dark:border-zinc-800 dark:bg-zinc-900 dark:text-slate-50">
